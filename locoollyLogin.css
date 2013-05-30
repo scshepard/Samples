@@ -1,0 +1,106 @@
+* {
+	background-color: rgb(#000033);
+}
+
+title
+{
+	width: 800px;
+	display:block; font-size: 16pt; color:blue;
+	background-color: fushia;
+	font-weight:bold;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+beginning {
+	border: 1px solid pink;
+	background-color: steelblue;
+}
+
+origin, count, error, sql, matrixcount {
+	display: block;
+	width: 400px;
+	margin-left: 180px;
+	background-color: goldenrod;
+}
+
+matrixcount {
+	display: block;
+	width: 200px;
+	margin-left: 180px;
+}
+
+desc {
+	position: absolute;
+	float: right;
+	margin-left: 0px;
+	height: 50px;
+}
+
+viewentry, cityentry, querydatabaseentry {
+	font-size:80%;
+	margin: 0.5em;
+	font-family: Verdana;
+	display: block;
+}
+
+sql {
+	font-size: 80%;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	display: block;
+	font-family: Verdana;
+	width: 800px;
+}
+
+database, Database, server, locoollydatabase {
+	display: block;
+	width: 200px;
+	height: 20px;
+	background-color: black;
+	color: red;
+	margin-left: 180px;
+}
+
+errormsg {
+	display: block;
+	font-size: 2em;
+	width: 400px;
+	height: 60px;
+	color: red;
+	margin-left: 180px;
+	background-color: black;
+}
+
+errormessage {
+	display: block;
+	font-size: 3em;
+	width: 800px;
+	height: 200px;
+	background-color: silver;
+	color: red;
+	margin-left: 180px;
+}
+
+CityName, CountyName, StateName, StateAbbreviation, PostalCode, postalcodeid, postalcode, cityname, countyname, cityid, countyid, statename, stateid, stateabbreviation, latitude, longitude, trackingid {
+	display: block;
+	width: 200px;
+	height: 20px;
+	margin-left: 180px;
+}
+
+subtotal {
+	display: block;
+	width: 200px;
+	height: 20px;
+	margin-left: 180px;
+}
+
+
+viewlist, citylist, databaselist {
+	display: block;
+	border: 1px solid silver;
+	margin: 0.5em;
+	margin-top: 1.5em;
+	padding: 0.5em;
+	background-color:whitesmoke;
+}
